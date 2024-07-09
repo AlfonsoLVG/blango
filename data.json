@@ -1,0 +1,15 @@
+[
+  {
+    "model": "blog.comment", 
+    "pk": 1, 
+    "fields": 
+    {
+      "creator": 1, 
+      "content": "Este es un comentario", 
+      "content_type": 7, 
+      "object_id": 1, 
+      "created_at": "2024-05-30T17:40:17.554Z", 
+      "modified_at": "2024-05-30T17:40:17.575Z"
+    }
+  }, 
+  {"model": "blog.comment", "pk": 2, "fields": {"creator": 1, "content": "Me caigo bien", "content_type": 4, "object_id": 1, "created_at": "2024-05-30T17:40:17.554Z", "modified_at": "2024-05-30T17:40:17.575Z"}}, {"model": "blog.comment", "pk": 3, "fields": {"creator": 1, "content": "este es un comentario", "content_type": 7, "object_id": 2, "created_at": "2024-06-02T04:22:02.457Z", "modified_at": "2024-06-02T04:22:02.457Z"}}, {"model": "blog.comment", "pk": 4, "fields": {"creator": 1, "content": "este es otro comentario", "content_type": 7, "object_id": 2, "created_at": "2024-06-02T04:22:07.701Z", "modified_at": "2024-06-02T04:22:07.701Z"}}, {"model": "blog.tag", "pk": 1, "fields": {"value": "uno"}}, {"model": "blog.tag", "pk": 2, "fields": {"value": "dos"}}, {"model": "blog.tag", "pk": 3, "fields": {"value": "tres"}}, {"model": "blog.post", "pk": 1, "fields": {"author": 1, "created_at": "2024-05-29T04:24:17.687Z", "modified_at": "2024-05-29T04:24:17.687Z", "published_at": null, "title": "Este es un titulo de ejemplo", "slug": "este-es-un-titulo-de-ejemplo", "summary": "algo de texto", "content": "mucho texto", "tags": [2, 3]}}, {"model": "blog.post", "pk": 2, "fields": {"author": 2, "created_at": "2024-05-31T17:12:36.417Z", "modified_at": "2024-05-31T17:12:36.417Z", "published_at": "2024-05-31T17:13:19Z", "title": "Otro titulo de ejemplo", "slug": "otro-titulo-de-ejemplo", "summary": "Este es un resumen del post", "content": "Y este es el contenido del post", "tags": [2, 3]}}, {"model": "blog.post", "pk": 3, "fields": {"author": 1, "created_at": "2024-05-31T17:13:55.712Z", "modified_at": "2024-05-31T17:13:55.712Z", "published_at": "2024-05-31T17:14:42Z", "title": "De nuevo yo", "slug": "de-nuevo-yo", "summary": "Este es un resumen del contenido", "content": "Y este es todo el contenido", "tags": [1]}}, {"model": "blango_auth.User", "pk": 1, "fields": {"password": "pbkdf2_sha256$260000$EvoUpbn52VHhi1byVr5Z2n$Qof+4AbINeEneLm3Wq8XNOQ4qFlq8559l6MWKIvNJu8=", "last_login": "2024-06-23T03:45:16.979Z", "is_superuser": true, "username": "alfonsolvg", "first_name": "", "last_name": "", "email": "alfonsolvg@gmail.com", "is_staff": true, "is_active": true, "date_joined": "2024-05-29T03:47:47.104Z", "groups": [], "user_permissions": []}}, {"model": "blango_auth.User", "pk": 2, "fields": {"password": "pbkdf2_sha256$260000$McL7bucKCt4fQfDiEM4OIe$20QFaoWbFrIcmYPsGaq6S4Gdm7hwPgyNUMNAikHihug=", "last_login": null, "is_superuser": false, "username": "brokas", "first_name": "Alfonso", "last_name": "Villanueva", "email": "xxbroyixx@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2024-05-31T17:12:04Z", "groups": [], "user_permissions": []}}]
